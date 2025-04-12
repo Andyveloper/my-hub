@@ -10,6 +10,7 @@ export const appShowList = [
     appDescription:
       'El espacio donde convierto ideas en código. Aquí están mis proyectos, aprendizajes y aportes al mundo open-source.',
     externalUrl: 'https://github.com/Andyveloper',
+    internalUrl: '/github',
     img: GithubLogo,
   },
   {
@@ -17,6 +18,7 @@ export const appShowList = [
     appDescription:
       'Mi banda sonora diaria. Aquí están las canciones que me acompañan mientras trabajo, juego o simplemente desconecto.',
     externalUrl: 'https://open.spotify.com/user/227as6tjedl6uk3klw5xxxcpy',
+    internalUrl: '/spotify',
     img: SpotifyLogo,
   },
   {
@@ -24,6 +26,7 @@ export const appShowList = [
     appDescription:
       'Mi bitácora de aventuras animadas. Series que sigo, personajes que me marcan, y mundos que me inspiran.',
     externalUrl: 'https://anilist.co/user/Zeraltz/',
+    internalUrl: '/anilist',
     img: AnilistLogo,
   },
   {
@@ -31,6 +34,7 @@ export const appShowList = [
     appDescription:
       'Mis retos, logros y escapes. Cada juego es una experiencia, y cada partida deja algo en mí.',
     externalUrl: 'https://steamcommunity.com/id/Zeraltz/',
+    internalUrl: '/steam',
     img: SteamLogo,
   },
 ]
@@ -53,4 +57,10 @@ export const aboutMeTitle = 'Un poco acerca de mí'
 export const aboutMeSubtitle = 'Entre código, series y estadísticas, así soy yo.'
 
 export const aboutMeDescription =
-  'Mi nombre es Mauricio, soy desarrollador frontend, enfocado en crear interfaces limpias y funcionales con React, HTML5, CSS y TypeScript. Tengo experiencia en soluciones SaaS y buenas prácticas de desarrollo, pero lo que más disfruto es convertir ideas creativas en experiencias web.\nAmante del anime, la música, los RPG tácticos y las series con consecuencias reales como Vox Machina e Invincible. Siempre buscando llevar esas inspiraciones a mis proyectos.'
+  'Mi nombre es Mauricio, soy desarrollador frontend, enfocado en crear interfaces limpias y funcionales con React, HTML5, CSS y TypeScript. Tengo experiencia en soluciones SaaS y buenas prácticas de desarrollo, pero lo que más disfruto es convertir ideas creativas en experiencias web.\nAmante del anime, la música, los RPG tácticos y las series como Vox Machina e Invincible. Siempre buscando llevar esas inspiraciones a mis proyectos.'
+
+// #region SteamPage
+
+export const steamHeaderTitle = 'Mi rincón gamer en Steam'
+export const steamHeaderText =
+  'Acá vas a encontrar todos mis datos de Steam: los juegos que más disfruto, mis horas jugadas, logros desbloqueados y algunas joyitas ocultas que seguro no conocías. Este espacio está conectado directamente con mi cuenta de Steam para que veas en tiempo real a qué le estoy metiendo más vicio. ¿Nos echamos una partida?'

@@ -4,6 +4,11 @@ export type VideoHeaderProps = {
   text: string
   video: string
 }
+export type ImageHeaderProps = {
+  title: string
+  text: string
+  image: string
+}
 
 export type ShowList = {
   appName: string
