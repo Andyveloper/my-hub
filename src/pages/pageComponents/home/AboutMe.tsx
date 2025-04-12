@@ -8,7 +8,7 @@ const AboutMe = ({ title, subTitle, description }: AboutMeProps) => {
       <div className="flex justify-center items-center">
         <img src={BlackSeparator} alt="Separator" width={512} height={512} />
       </div>
-      <div className="container mx-auto flex flex-row items-center justify-center gap-10">
+      <div className="container mx-auto flex flex-col md:flex-row text-center md:text-left items-center justify-center gap-10">
         <div className="flex flex-col max-w-xl">
           <h1 className="text-6xl md:text-6xl mb-6 p-6 text-center font-bold bg-gradient-to-r bg-clip-text text-transparent from-purple-700 via-blue-500 to-cyan-400">
             {title}
@@ -17,9 +17,9 @@ const AboutMe = ({ title, subTitle, description }: AboutMeProps) => {
             {subTitle}
           </h2>
         </div>
-        <div className="max-w-2xl">
+        <div className="md:max-w-2xl container mx-auto">
           {paragraphs.map((paragraph, index) => (
-            <p key={index} className="leading-7 [&:not(:first-child)]:mt-6 mb-4">
+            <p key={index} className="leading-7 [&:not(:first-child)]:mt-6 mb-4 p-6">
               {paragraph}
             </p>
           ))}

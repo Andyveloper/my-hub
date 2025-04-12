@@ -8,10 +8,12 @@ const ShowList = ({ showList, title, description }: ShowListProps) => {
     <section className="py-10">
       <div className="z-20 flex flex-col container mx-auto items-center justify-center">
         <h1 className="text-6xl md:text-6xl font-bold text-black mb-6 p-6 text-center">{title}</h1>
-        <p className="text-xl md:text-xl text-black xs:max-w-2xl p-6 text-center">{description}</p>
+        <p className="leading-7 [&:not(:first-child)]:mt-6 mb-4 p-6 text-center md:text-left items-center justify-center">
+          {description}
+        </p>
       </div>
       <div>
-        <ul className="flex flex-wrap justify-around  gap-6 container mx-auto items-stretch">
+        <ul className="flex flex-wrap justify-around gap-6 container mx-auto items-stretch">
           {showList.map((showList, index) => {
             return (
               <li key={showList.appName + index} className="w-full md:w-1/3 lg:w-1/4 flex mx-4">
