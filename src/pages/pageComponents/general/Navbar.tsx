@@ -46,7 +46,7 @@ const Navbar = () => {
   }, [])
   return (
     <>
-      {showNavBar === true ? (
+      {showNavBar && (
         <nav
           className={`px-8 py-8 w-full h-auto z-30 flex justify-between items-center transition-all duration-500 ease-in-out ${
             isSticky
@@ -74,7 +74,7 @@ const Navbar = () => {
             </ul>
           </div>
         </nav>
-      ) : null}
+      )}
     </>
   )
 }
